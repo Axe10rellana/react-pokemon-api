@@ -1,0 +1,11 @@
+.card__subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.card__text {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}

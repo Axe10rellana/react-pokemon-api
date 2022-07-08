@@ -1,0 +1,35 @@
+.li {
+  background-color: var(--color-14);
+  color: var(--color-01);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  user-select: none;
+  transition: transform 0.3s linear;
+  overflow: hidden;
+}
+
+.li:hover {
+  transform: scale(1.1);
+}
+
+.li__link {
+  color: var(--color-01);
+  text-decoration: none;
+}
+
+.li__img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.li__title {
+  background-color: var(--color-21);
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
